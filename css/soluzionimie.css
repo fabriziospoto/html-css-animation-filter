@@ -63,7 +63,7 @@
 
 .ex-8-img:hover {
     filter: opacity(0.5) blur(3px);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .ex-9-img {
@@ -73,7 +73,7 @@
 .ex-9-img:hover {
     width: 500px;
     filter: opacity(0.7) blur(2px);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .ex-10-icon {
@@ -98,4 +98,56 @@
     0% {transform:rotate(0deg)}
     75% {transform:rotate(270deg)}
     100% {transform:rotate(0deg)}
+}
+
+.ex-12-top-white {
+    animation-name: animation-white-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-white-1 {
+    0% {top: -10px; left: 10%;}
+    50% {top: -10px; left: 60%;}
+    100% {top: -10px; left: 10%;}
+}
+
+.ex-12-bottom-white {
+    animation-name: animation-white-2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-white-2 {
+    0% {bottom: -10px; right: 10%;}
+    50% {bottom: -10px; right: 60%;}
+    100% {bottom: -10px; right: 10%;}
+}
+
+.ex-13-top-white {
+    animation-name: animation-white-3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-white-3 {
+    0% {top: -10px; left: -10%;}
+    25% {top: -10px; left: 90%;}
+    50% {top: 60px; left: 90%;}
+    75% {top: 60px; left: -10%;}
+    100% {top: -10px; left: -10%;}
+}
+
+.ex-13-bottom-white {
+    animation-name: animation-white-4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-white-4 {
+    0% {bottom: -10px; right: 10%;}
+    25% {bottom: -10px; right: 80%;}
+    50% {bottom: 60px; right: 80%;}
+    75% {bottom: 60px; right: 0%;}
+    100% {bottom: -10px; right: -10%;}
 }
